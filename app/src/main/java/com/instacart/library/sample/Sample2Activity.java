@@ -33,6 +33,8 @@ public class Sample2Activity
     @Bind(R.id.tt_time_pst) TextView timePST;
     @Bind(R.id.tt_time_device) TextView timeDeviceTime;
 
+    int i=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
